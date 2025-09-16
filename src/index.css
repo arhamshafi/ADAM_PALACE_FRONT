@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.rx_sh {
+    box-shadow: 1px 1px 5px 0px red;
+}
+
+.bx_sh {
+    box-shadow: 4px 4px 10px 0px black;
+}
+
+.ox_sh {
+    box-shadow: 4px 4px 10px 0px orangered;
+}
+
+.gx_sh {
+    box-shadow: 2px 2px 10px 0px grey;
+}
+
+.inset_bx_g {
+    box-shadow: inset 1px 1px 7px 0px grey;
+}
+
+.bt_sh {
+    text-shadow: .1px .1px 2px black;
+}
+
+.wt_sh {
+    text-shadow: .1px .1px 2px white;
+}
+
+.yt_sh {
+    text-shadow: .1px .1px 2px orangered;
+}
+
+.img_shadow {
+    filter: drop-shadow(.1px .1px 5px rgba(192, 192, 192, 0.774));
+}
+
+.triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #b91c1c transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 9999px;
+    margin: 2px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #b91c1c;
+    border-radius: 9999px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: #991b1b;
+}
+
+
+
+
+/* ////////////// */
+
+@media screen and (max-width:480px) {
+    .h_img_1 {
+        width: 125px;
+        height: 180px;
+    }
+
+    .h_img_2 {
+        width: 140px;
+        height: 200px;
+        top: -2%;
+        left: 27%;
+        background-position-x: -120px;
+    }
+
+    .img_border_h {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    .d_none {
+        display: none;
+    }
+
+    .d_block {
+        display: block;
+    }
+
+    .bottom {
+        bottom: -280px;
+    }
+
+    .r0 {
+        right: 0;
+    }
+
+    .font_1 {
+        font-size: 13px;
+    }
+
+    .font_2 {
+        font-size: 18px;
+    }
+
+}
