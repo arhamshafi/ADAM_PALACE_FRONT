@@ -5,7 +5,7 @@ import Menu_btn from './Menu_btn'
 function Navbar() {
     const { nav, set_nav } = useContext(App_context)
     return (
-        <div className='w-full h-[45px] sm:h-[70px] flex items-center justify-between px-2 sm:px-5 fixed top-0 left-0 z-10 backdrop-blur-sm bg-black sm:bg-white/40  '>
+        <div className='w-full h-[45px] sm:h-[70px] flex items-center justify-between px-2 sm:px-5 fixed top-0 left-0 z-50 backdrop-blur-sm bg-black sm:bg-white/40  '>
             <div className='w-max h-full flex items-center gap-2  '>
                 <div className='text-sm w-[40px] h-[55%]'> <img src="/adam.png" className='w-full h-full img_shadow object-contain' alt="" /> </div>
                 <div>

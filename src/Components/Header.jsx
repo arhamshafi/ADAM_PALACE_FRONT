@@ -3,9 +3,9 @@ import React from 'react'
 function Header() {
     return (
         <>
-            <div className=' pt-[30px] h-max flex justify-between items-center flex-wrap lg:flex-nowrap ' >
+            <div className=' pt-[30px] h-max flex justify-between items-center flex-wrap lg:flex-nowrap ' id='home' >
                 <div className=' w-[95%] sm:w-[90%] mx-auto lg:mx-0 lg:w-[60%] h-max lg:h-full pt-10 sm:pt-[40px] pl-0 lg:pl-7 flex justify-center items-center lg:items-start flex-col '>
-                    <h1 className=" text-sm font_1 sm:text-lg text-center tracking-[1px] sm:tracking-[2px] uppercase bt_sh text-black">Experience the Grandeur at</h1>
+                    <h1 className=" text-sm font_1 sm:text-lg text-center tracking-[1px] sm:tracking-[2px] uppercase bt_sh text-black">Experience the Magic of Our Venue</h1>
                     <h1 className=' text-2xl font_2 tracking-[1px] sm:text-3xl lg:text-4xl xl:text-5xl mt-3 sm:mt-5 uppercase font-bold bt_sh '>adam <span className='text-yellow-500 yt_sh italic ' >palace</span> & <span className='text-yellow-500 italic yt_sh '>marquee</span> </h1>
                     <p className="text-sm sm:text-md font_1 lg:text-lg text-black/60 mt-3 sm:mt-5 text-center lg:text-left  ">
                         Turn your celebrations into unforgettable memories. Step into an atmosphere of timeless elegance, exquisite décor, and flawless service — the ultimate destination for weddings, birthdays, corporate events, and every moment worth cherishing
